@@ -5,7 +5,7 @@
     "keywords": "datetime, date, time, timer, clock, ntp, automation, iot, esp32, esp8266",
     "repository": {
         "type": "git",
-        "url": "https://bitbucket.org/fer-almeida/deviceiq-lib-datetime.git"
+        "url": "https://github.com/deviceiq-code/DeviceIQ-Lib-DateTime.git"
     },
     "authors": [
         {
@@ -15,7 +15,7 @@
         }
     ],
     "license": "MIT",
-    "homepage": "https://bitbucket.org/fer-almeida/deviceiq-lib-datetime",
+    "homepage": "https://github.com/deviceiq-code/DeviceIQ-Lib-DateTime",
     "dependencies": {
         "arduino-libraries/NTPClient": "~3.2.1"
     },
