@@ -1,0 +1,30 @@
+{
+    "name": "DeviceIQ Lib DateTime",
+    "version": "1.1.0",
+    "description": "Lightweight date, time, and clock utility library for Arduino/ESP32 with formatting, leap year calculation, timers, and stateless NTP synchronization.",
+    "keywords": "datetime, date, time, timer, clock, ntp, automation, iot, esp32, esp8266",
+    "repository": {
+        "type": "git",
+        "url": "https://bitbucket.org/fer-almeida/deviceiq-lib-datetime.git"
+    },
+    "authors": [
+        {
+            "name": "Fernando Almeida",
+            "email": "fernando.almeida@me.com",
+            "url": "https://www.linkedin.com/in/fealmeida"
+        }
+    ],
+    "license": "MIT",
+    "homepage": "https://bitbucket.org/fer-almeida/deviceiq-lib-datetime",
+    "dependencies": {
+        "arduino-libraries/NTPClient": "~3.2.1"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+        {
+            "name": "BasicUsage",
+            "path": "examples/BasicUsage/BasicUsage.ino"
+        }
+    ]
+}
