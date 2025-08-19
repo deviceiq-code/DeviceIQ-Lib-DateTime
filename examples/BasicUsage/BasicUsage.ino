@@ -11,7 +11,7 @@ Clock clock;
 void setup() {
     Serial.begin(115200);
     Serial.println();
-    Serial.println("Connecting to WiFi...");
+    Serial.println("Connecting to WiFi network...");
 
     WiFi.begin(ssid, password);
     while (WiFi.status() != WL_CONNECTED) {
